@@ -11,5 +11,6 @@ public interface IAccount {
 	public Account create(Account account);
 	public Account update(Account account);
 	public void delete(long id);
+	public void roleToAccount(String userName,String roleName);
 	
 }

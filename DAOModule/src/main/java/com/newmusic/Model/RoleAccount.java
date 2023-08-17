@@ -6,5 +6,7 @@ import lombok.Data;
 public class RoleAccount {
 
 	private String roleName;
+	
+	// userName
 	private String accountName;
 }
